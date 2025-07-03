@@ -1,0 +1,9 @@
+<h1>users page</h1>
+<ul>
+<%= for users <- @users do %>
+<li>
+<%= users.name %> - <%= users.email %>
+</li>
+<li></li>
+<% end %>
+</ul>
